@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Verto - Demo Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demo Application using Verto jQuery lib.">
+    <meta name="author" content="Your name here!">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Verto dependencies -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/jquery-json/dist/jquery.json.min.js"></script>
+
+<!-- Verto library -->
+<script src="../node_modules/verto/src/jquery.verto.js"></script>
+<script src="../node_modules/verto/src/jquery.FSRTC.js"></script>
+<script src="../node_modules/verto/src/jquery.jsonrpcclient.js"></script>
+
+<!-- Our project's files -->
+<script src="main.js"></script>
+<div class="container">
+    <h1>Verto - Demo Application</h1>
+    <video id="video-container" autoplay="autoplay" class="video-style"></video>
+    <div>
+        <button id="make-call">Make call</button>
+        <button id="hang-up-call">Hang up call</button>
+        <button id="answer-call">Answer call</button>
+    </div>
+    <div>
+        <button id="mute-call">Mute call</button>
+        <button id="unmute-call">Unmute call</button>
+        <button id="mute-unmute-call">Mute/Unmute call</button>
+    </div>
+    <div>
+        <button id="hold-call">Hold call</button>
+        <button id="unhold-call">Unhold call</button>
+        <button id="transfer-call">Transfer call</button>
+    </div>
+
+</div> <!-- /container -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "freeswitch_verto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : " node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-json": "^2.6.0",
+    "node-static": "^0.7.10",
+    "verto": "0.0.2"
+  }
+}
